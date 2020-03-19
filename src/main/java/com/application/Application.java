@@ -1,13 +1,13 @@
-package com.application.metrics;
+package com.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MetricsApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(MetricsApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
 }
